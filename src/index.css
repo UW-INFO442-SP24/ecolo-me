@@ -42,4 +42,26 @@
     transition: color 0.3s;
 }
 
+/* LANDING PAGE */
+
+.landing-page {
+    background-image: url('/public/img/cover.webp');
+    display: flex;
+    width: 85vw;
+    height: 75vh; 
+    background-size: cover;
+    margin-top:3vh;
+    margin-left:5vh; 
+}
+
+.landing-flex {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-flex h2, .landing-flex p {
+    margin-left: 5vh;
+    font-size: 30px;
+}
 

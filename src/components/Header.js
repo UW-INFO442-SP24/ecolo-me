@@ -13,9 +13,9 @@ function Header() {
 
 
             <ul className="navbar-links">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#find">FIND CHALLENGES</a></li>
-                <li><a href="#resources">MORE RESOURCES</a></li>
+                <li><a href="/home">HOME</a></li>
+                <li><a href="/find">FIND CHALLENGES</a></li>
+                <li><a href="/resources">MORE RESOURCES</a></li>
             </ul>
 
         </nav>
@@ -24,3 +24,4 @@ function Header() {
 }
 
 export default Header;
+
