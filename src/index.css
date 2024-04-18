@@ -42,6 +42,12 @@
     transition: color 0.3s;
 }
 
+.navbar-links a:hover {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+
 /* LANDING PAGE */
 
 .landing-page {
@@ -65,3 +71,28 @@
     font-size: 30px;
 }
 
+/* RESOURCES PAGE STYLING */
+.resources-page {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.resources-page h1 {
+    color: green;
+}
+
+.resources-page p, .resources-page ul {
+    font-size: 18px;
+}
+
+.resources-page a {
+    color: #A0E179;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.resources-page a:hover {
+    color: darkgreen;
+}
