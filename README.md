@@ -1,11 +1,11 @@
 <h1> align='center' Eco-Challenge: Empowering Sustainable Lifestyles</h>
 
 ## Group Members
--Nawal Dhabar
--Aanyk Mann
--Alexis Nguyen
--Michelle Odnert
-Jorey Papritz
+- Nawal Dhabar
+- Aanyk Mann
+- Alexis Nguyen
+- Michelle Odnert
+- Jorey Papritz
 
 ## Mission/Summary
 The current patterns of consumption and production are unsustainable, leading to environmental degradation, resource depletion, and social inequalities. Overconsumption, waste generation, and inefficient resource use contribute to this problem. Lack of awareness, convenience, and societal norms also perpetuate unsustainable practices. Additionally, the pandemic only worsened the issues with our consumption levels by doubling the amount of fossil fuel subsidies between 2020 and 2021 (Fossil Fuels Consumption Subsidies 2022 – Analysis - IEA, 2023).
@@ -18,9 +18,9 @@ For this project, we plan to address the lack of awareness and inconvenience as 
 How might we encourage college students to adopt sustainable consumption and production patterns through simplified, manageable, and educational challenges?
 
 ## Features List
--Quiz page on general environmental and sustainability knowledge
--Dataset of challenges related to environmental goals (action items) 
--Ability to deny or accept a challenge
+- Quiz page on general environmental and sustainability knowledge
+- Dataset of challenges related to environmental goals (action items) 
+- Ability to deny or accept a challenge
 
 ## Technologies used
 - React (JSX syntax)
