@@ -107,14 +107,14 @@
 
 /* FACTS STYLING */
 
-.facts-page {
+/* .facts-page {
     background-image: url('/public/img/facts.jpeg');
     display: flex;
     width: 50vw;
     height: 30vh; 
     background-size: cover;
-    margin-top: 15vh;
-}
+    margin-top: 10vh;
+} */
 
 
 
@@ -123,9 +123,45 @@
 .search-input-container input[type="text"] {
     min-width: 700px;
     padding:1rem;
-    margin-left: 5vh;
-    margin-top: 30vh;
-    margin-bottom:2vh;
+    margin-left: 8vh;
+    margin-top: 15vh;
+    margin-bottom:10vh;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.5); 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+/* CARDS STYLING */
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.one-card {
+    max-width: 18rem;
+    border: 2px solid rgba(128, 128, 128, 0.5); 
+    padding: 10px;
+    margin-left: 8vh;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    margin-bottom: 5vh;
+    border-radius: 10px; 
+}
+
+.one-card img {
+    width: 100%; 
+    height: 18rem; 
+}
+
+.one-card-body {
+    padding: 10px; 
+}
+
+.one-card-title {
+    text-align: center;
+    color: green;
+    font-size: 20px;
 }
 
 /* RESOURCES PAGE STYLING */
