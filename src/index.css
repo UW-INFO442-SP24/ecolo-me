@@ -105,6 +105,29 @@
     margin-top: 5vh;
 }
 
+/* FACTS STYLING */
+
+.facts-page {
+    background-image: url('/public/img/facts.jpeg');
+    display: flex;
+    width: 50vw;
+    height: 30vh; 
+    background-size: cover;
+    margin-top: 15vh;
+}
+
+
+
+/* SEARCH STYLING*/
+
+.search-input-container input[type="text"] {
+    min-width: 700px;
+    padding:1rem;
+    margin-left: 5vh;
+    margin-top: 30vh;
+    margin-bottom:2vh;
+}
+
 /* RESOURCES PAGE STYLING */
 .resources-page {
     padding: 20px;

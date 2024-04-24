@@ -4,6 +4,8 @@ import Header from './Header.js';
 import Home from './Landingpage';
 import Resources from './Resources';
 import Footer from './Footer.js';
+import Cards from './Cards.js';
+import Funfacts from './Facts.js';
 
 
 function App(props) {
@@ -16,6 +18,8 @@ function App(props) {
         <Route path="/resources" element={<Resources />} />
       </Routes>
 
+      <Funfacts/>
+      <Cards/>
       <Footer/>
       </Router>
     );
