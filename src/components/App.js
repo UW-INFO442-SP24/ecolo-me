@@ -6,6 +6,7 @@ import Resources from './Resources';
 import Footer from './Footer.js';
 import Cards from './Cards.js';
 import Funfacts from './Facts.js';
+import YoutubeEmbed from "./YoutubeEmbed";
 
 
 function App(props) {
@@ -22,6 +23,7 @@ function App(props) {
       <Cards/>
       <Footer/>
       </Router>
+      
     );
 };
 
