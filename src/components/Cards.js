@@ -8,7 +8,6 @@ function Cards() {
 }
    
     return (
-      <div className="search-container">
         <div>
             <section className="search-and-filter">
                 <div className="search-container">
