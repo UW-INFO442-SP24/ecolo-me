@@ -1,4 +1,5 @@
 import React from 'react';
+import YouTubeEmbed from "./YoutubeEmbed";
 
 function Resources() {
     return (
@@ -10,6 +11,7 @@ function Resources() {
                 <li><a href="https://sdgs.un.org/goals/goal12">UN Sustainable Development Goal 12</a></li>
                 <li>And more...</li>
             </ul>
+            <YouTubeEmbed embedId="dn-hLQk49eA" />
         </div>
     );
 }

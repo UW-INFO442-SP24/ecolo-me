@@ -8,7 +8,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
 }
 
 /* "ECO-CHALLENGE" STYLING*/
@@ -20,6 +19,10 @@
     color: green; 
 }
 
+.project-name:hover {
+    color:green;
+}
+
 .challenge-text {
     color: #A0E179;
 }
@@ -29,6 +32,7 @@
     display: flex;
     padding: 0;
     margin: 0;
+    color: green;
 }
 
 .navbar-links li {
@@ -49,15 +53,12 @@
 
 
 /* LANDING PAGE */
-
 .landing-page {
     background-image: url('/public/img/cover.webp');
     display: flex;
     width: 90vw;
-    height: 80vh; 
+    height: 85vh; 
     background-size: cover;
-    margin-top:1vh;
-    margin-bottom: 3vh;
     margin-left:5vh;
 }
 
@@ -83,6 +84,7 @@
     word-wrap: break-word;
     width: 450px;
     font-weight: 500;
+    margin-bottom:5vh;
 }
 
 .land-button {
@@ -102,7 +104,8 @@
     font-size: 15px;
     word-wrap: break-word;
     width: 400px;
-    margin-top: 5vh;
+    font-weight:550;
+    margin-top: 15vh;
 }
 
 /* FACTS STYLING */
@@ -121,9 +124,9 @@
 /* SEARCH STYLING*/
 
 .search-input-container input[type="text"] {
-    min-width: 700px;
+    min-width: 900px;
     padding:1rem;
-    margin-left: 8vh;
+    margin-left: 2vh;
     margin-top: 15vh;
     margin-bottom:10vh;
     border-radius: 10px;
@@ -131,19 +134,61 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
 }
 
+.search-and-filter {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+}
+
+.filter-container {
+    margin-top: 5vh;
+    margin-right: 4vh;
+    color:rgb(171, 171, 171);
+}
+
+
+
+/* FILTER BOX */
+
+label {
+    font-size: 16px; 
+    margin-bottom: 8px; 
+    display: block;
+  }
+  
+  select {
+    min-width: 300px; 
+    padding: 1rem; 
+    border-radius: 10px; 
+    border: 1px solid #ccc; 
+    background-color: #fff;
+    text-align: center; 
+    border: 2px solid rgba(128, 128, 128, 0.5); 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    color:grey;
+  }
+  
+
+  select option {
+    color: darkblue; 
+  }
+  
+
 /* CARDS STYLING */
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 20px; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
 }
 
 .one-card {
     max-width: 18rem;
+    max-height: 30rem;
     border: 2px solid rgba(128, 128, 128, 0.5); 
     padding: 10px;
-    margin-left: 8vh;
+    margin-left: 3.5vh;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
     margin-bottom: 5vh;
     border-radius: 10px; 
@@ -162,6 +207,7 @@
     text-align: center;
     color: green;
     font-size: 20px;
+    margin-bottom:2vh;
 }
 
 .card-inner {
@@ -214,3 +260,30 @@
 .resources-page a:hover {
     color: darkgreen;
 }
+
+/* YOUTUBE RESPONSIVE */
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    }
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    }
+
+
+    @media (min-width: 430px) {
+
+    }
+
+    @media (min-width: 992px) {
+        .container {
+        max-width: 1400px;
+        }
+    }

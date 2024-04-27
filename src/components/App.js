@@ -19,9 +19,9 @@ function App(props) {
       </Routes>
 
       <Funfacts/>
-      <Cards/>
       <Footer/>
       </Router>
+      
     );
 };
 

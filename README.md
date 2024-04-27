@@ -1,4 +1,4 @@
-<h1> align='center' Eco-Challenge: Empowering Sustainable Lifestyles</h>
+<h1 align="center"> Eco-Challenge: Empowering Sustainable Lifestyles</h1>
 
 ## Group Members
 - Nawal Dhabar
@@ -27,8 +27,6 @@ How might we encourage college students to adopt sustainable consumption and pro
 - Firebase for hosting
 - Figma for prototyping
 - Github to store our code
-
-## References
 
 
 
