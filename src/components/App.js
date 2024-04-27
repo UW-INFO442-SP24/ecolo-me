@@ -7,22 +7,20 @@ import Footer from './Footer.js';
 import Cards from './Cards.js';
 import Funfacts from './Facts.js';
 
-
 function App(props) {
     return (
-      <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home/>} />  
-        <Route path="/home" element={<Home/>} />
-        <Route path="/resources" element={<Resources />} />
-      </Routes>
-
-      <Funfacts/>
-      <Footer/>
-      </Router>
-      
+        <Router>
+            <Header />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/find" element={<Cards />} />
+                <Route path="/resources" element={<Resources />} />
+            </Routes>
+            <Funfacts />
+            <Footer />
+        </Router>
     );
-};
+}
 
 export default App;
