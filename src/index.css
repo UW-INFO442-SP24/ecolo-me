@@ -238,7 +238,7 @@ label {
   
   .card-back {
     background-color: #2980b9;
-    color: white;
+    color: black;
     transform: rotateY(180deg);
   }
 
