@@ -1,0 +1,353 @@
+[
+    {
+      "id": "1",
+      "action": "1: Short Showers",
+      "description": "Limit your showers to 5 minutes a day to conserve water",
+      "category": "Waste Management",
+      "image": "/img/1shower.jpeg"
+    },
+    {
+      "id": "2",
+      "action": "2: Reusable Water Bottle",
+      "description": "Replace your plastic water bottles with a reusable bottle to reduce your plastic waste",
+      "category": "Reuse & Recycle",
+      "image": "/img/2reuse.jpeg"
+    },
+    {
+      "id": "3",
+      "action": "3: Donate Left-Overs",
+      "description": "Decrease the amount of food waste you produce to minimize your environmental impact",
+      "category": "Responsible Spending",
+      "image": "img/3donate.avif"
+    },
+    {
+      "id": "4",
+      "action": "4: No Straws",
+      "description": "Replace harmful single-use plastic straws with environmentally friendly and/or reusable ones",
+      "category": "Reuse & Recycle",
+      "image": "img/4straw.jpeg"
+    },
+    {
+      "id": "5",
+      "action": "5: Emailed Receipts",
+      "description": "Paper receipts produce waste and needlessly fill up landfills. Ask for your receipt to be emailed after your next purchase.",
+      "category": "Responsible Spending",
+      "image": "img/5emailed.jpeg"
+    },
+    {
+      "id": "6",
+      "action": "6: Use A Reusable Bag",
+      "description": "Replace single-use plastic bags with a reusable one to reduce waste.",
+      "category": "Reuse & Recycle",
+      "image": "img/6reusebag.jpeg"
+    },
+    {
+      "id": "7",
+      "action": "7: Donate Clothes",
+      "description": "Donate your unwanted clothes to a donation center instead of throwing them away.",
+      "category": "Community",
+      "image": "img/7donatecloth.jpeg"
+    },
+    {
+      "id": "8",
+      "action": "8: Air-Dry Clothes",
+      "description": "Hang your clothes out to dry after washing them instead of using a dryer to save energy.",
+      "category": "Energy Conservation",
+      "image": "img/8laundry.jpeg"
+    },
+    {
+      "id": "9",
+      "action": "9: Avoid Wasting Water",
+      "description": "Be vigilant about your water usage. Close the tap immediately after use to minimize waste.",
+      "category": "Waste Management",
+      "image": "img/9waterwaste.jpeg"
+    },
+    {
+      "id": "10",
+      "action": "10: Cold Shower",
+      "description": "Take cold showers to reduce your energy consumption.",
+      "category": "Energy Conservation",
+      "image": "img/10coldshower.jpeg"
+    },
+    {
+      "id": "11",
+      "action": "11: Turn Off The Lights",
+      "description": "Keep the lights off when not needed to save energy.",
+      "category": "Energy Conservation",
+      "image": "img/11lights.jpeg"
+    },
+    {
+      "id": "12",
+      "action": "12: Sustainable Transport",
+      "description": "Use sustainable transport methods such as walking, biking, and carpooling to reduce carbon emissions.",
+      "category": "Sustainable Consumption",
+      "image": "img/12transport.png"
+    },
+    {
+      "id": "13",
+      "action": "13: Reusable Mugs",
+      "description": "Bring a reusable mug to coffee shops to avoid creating waste.",
+      "category": "Reuse & Recycle",
+      "image": "img/13mug.jpeg"
+    },
+    {
+      "id": "14",
+      "action": "14: Sign A Petition",
+      "description": "Find and sign an environmental petition and share it.",
+      "category": "Community",
+      "image": "img/14sign.webp"
+    },
+    {
+      "id": "15",
+      "action": "15: Educate Others",
+      "description": "Share environmental knowledge with others via conversation or social media.",
+      "category": "Community",
+      "image": "img/15educate.png"
+    },
+    {
+      "id": "16",
+      "action": "16: Reusable Pods",
+      "description": "Replace single-use coffee pods with reusable pods to reduce waste.",
+      "category": "Reuse & Recycle",
+      "image": "img/16coffee.avif"
+    },
+    {
+      "id": "17",
+      "action": "17: Create Your Own Reusable Items",
+      "description": "Repurpose household items like soda cans or shoe boxes into reusable storage solutions.",
+      "category": "Reuse & Recycle",
+      "image": "img/17reuse.webp"
+    },
+    {
+      "id": "18",
+      "action": "18: Use Your Dishwasher",
+      "description": "Use a dishwasher instead of hand washing to save water.",
+      "category": "Sustainable Consumption",
+      "image": "img/18dishwasher.jpeg"
+    },
+    {
+      "id": "19",
+      "action": "19: Get A Plant",
+      "description": "Buy a plant to improve household air quality.",
+      "category": "Sustainable Consumption",
+      "image": "img/19plants.jpeg"
+    },
+    {
+      "id": "20",
+      "action": "20: Defrost Food In Fridge",
+      "description": "Defrost frozen foods in the fridge instead of under hot water to save water.",
+      "category": "Sustainable Consumption",
+      "image": "img/20frost.jpeg"
+    },
+    {
+      "id": "21",
+      "action": "21: Replace Plastic Containers",
+      "description": "Switch from plastic to glass or steel containers to reduce plastic use.",
+      "category": "Sustainable Consumption",
+      "image": "img/21containers.jpeg"
+    },
+    {
+      "id": "22",
+      "action": "22: Buy Secondhand Items",
+      "description": "Purchase used items to save money and reduce waste.",
+      "category": "Responsible Spending",
+      "image": "img/22buy.jpeg"
+    },
+    {
+      "id": "23",
+      "action": "23: Adopt Paperless Mail",
+      "description": "Opt for electronic mail to reduce paper waste.",
+      "category": "Responsible Spending",
+      "image": "img/5emailed.jpeg"
+    },
+    {
+      "id": "24",
+      "action": "24: Reusable Tea Bags",
+      "description": "Use reusable tea bags or loose leaf tea to avoid microplastics.",
+      "category": "Reuse & Recycle",
+      "image": "img/24tea.jpeg"
+    },
+    {
+      "id": "25",
+      "action": "25: Meal Plan",
+      "description": "Plan meals to save time, money, and reduce waste.",
+      "category": "Responsible Spending",
+      "image": "img/25meal.jpeg"
+    },
+    {
+      "id": "26",
+      "action": "26: Buy Soap Bars",
+      "description": "Switch to soap bars to reduce plastic consumption.",
+      "category": "Sustainable Consumption",
+      "image": "img/26bar.webp"
+    },
+    {
+      "id": "27",
+      "action": "27: Make Your Own Cleaning Products",
+      "description": "Create sustainable cleaning products from household items like baking soda and vinegar.",
+      "category": "Sustainable Consumption",
+      "image": "img/27clean.jpeg"
+    },
+    {
+      "id": "28",
+      "action": "28: No Printing",
+      "description": "Avoid printing documents and save them digitally instead.",
+      "category": "Responsible Spending",
+      "image": "img/28print.jpeg"
+    },
+    {
+      "id": "29",
+      "action": "29: Store Water in Fridge",
+      "description": "Store drinking water in the fridge to reduce wastage.",
+      "category": "Waste Management",
+      "image": "img/20frost.jpeg"
+    },
+    {
+      "id": "30",
+      "action": "30: Car Washing",
+      "description": "Use a bucket instead of a hose to wash your car and save water.",
+      "category": "Waste Management",
+      "image": "img/30car.jpeg"
+    },
+    {
+      "id": "31",
+      "action": "31: Clear Out Your Inbox",
+      "description": "Delete old emails to reduce energy consumption at data centers.",
+      "category": "Energy Conservation",
+      "image": "img/15educate.png"
+    },
+    {
+      "id": "32",
+      "action": "32: Take The Stairs",
+      "description": "Use stairs instead of elevators to save energy.",
+      "category": "Energy Conservation",
+      "image": "img/32stairs.png"
+    },
+    {
+      "id": "33",
+      "action": "33: Fast Fashion Detox",
+      "description": "Choose environmentally friendly materials over synthetic fabrics.",
+      "category": "Responsible Spending",
+      "image": "img/33fashion.webp"
+    },
+    {
+      "id": "34",
+      "action": "34: Sustainable Cosmetics",
+      "description": "Switch to sustainable, cruelty-free makeup products.",
+      "category": "Sustainable Consumption",
+      "image": "img/34cos.jpeg"
+    },
+    {
+      "id": "35",
+      "action": "35: Reusable Wash-Cloths",
+      "description": "Use reusable washcloths instead of paper towels.",
+      "category": "Reuse & Recycle",
+      "image": "img/35paper.webp"
+    },
+    {
+      "id": "36",
+      "action": "36: Wash With Cold Water",
+      "description": "Use cold water for laundry to save energy.",
+      "category": "Energy Conservation",
+      "image": "img/36wash.webp"
+    },
+    {
+      "id": "37",
+      "action": "37: Cut Out Styrofoam",
+      "description": "Avoid products made of non-recyclable Styrofoam.",
+      "category": "Waste Management",
+      "image": "img/37sty.jpeg"
+    },
+    {
+      "id": "38",
+      "action": "38: Borrow, Don’t Buy",
+      "description": "Borrow items instead of buying new to reduce waste.",
+      "category": "Responsible Spending",
+      "image": "img/38borrow.webp"
+    },
+    {
+      "id": "39",
+      "action": "39: Track Your Carbon Footprint",
+      "description": "Measure your carbon footprint using online tools.",
+      "category": "Community",
+      "image": "img/39carbon.jpg"
+    },
+    {
+      "id": "40",
+      "action": "40: Buy Used Clothing",
+      "description": "Buy secondhand clothing to reduce environmental impact from new clothing production.",
+      "category": "Responsible Spending",
+      "image": "img/40used.gif"
+    },
+    {
+      "id": "41",
+      "action": "41: Grow Some Plants",
+      "description": "Grow plants to improve air quality and reduce carbon dioxide.",
+      "category": "Sustainable Consumption",
+      "image": "img/41grow.jpeg"
+    },
+    {
+      "id": "42",
+      "action": "42: Pick Slower Delivery Options",
+      "description": "Opt for slower delivery to reduce carbon emissions.",
+      "category": "Sustainable Consumption",
+      "image": "img/42pack.jpeg"
+    },
+    {
+      "id": "43",
+      "action": "43: Volunteer",
+      "description": "Participate in environmental clean-up events.",
+      "category": "Community",
+      "image": "img/43vol.jpeg"
+    },
+    {
+      "id": "44",
+      "action": "44: Donate",
+      "description": "Contribute to non-profits addressing climate change and environmental issues.",
+      "category": "Community",
+      "image": "img/3donate.avif"
+    },
+    {
+      "id": "45",
+      "action": "45: Buy Local",
+      "description": "Support local producers to reduce carbon footprint.",
+      "category": "Sustainable Consumption",
+      "image": "img/45buy.avif"
+    },
+    {
+      "id": "46",
+      "action": "46: Energy Audit",
+      "description": "Conduct a home energy audit to identify energy-saving opportunities.",
+      "category": "Energy Conservation",
+      "image": "img/46energy.jpeg"
+    },
+    {
+      "id": "47",
+      "action": "47: Attend An Educational Event",
+      "description": "Participate in events about environmental education.",
+      "category": "Community",
+      "image": "img/15educate.png"
+    },
+    {
+      "id": "48",
+      "action": "48: Go meat-free",
+      "description": "Avoid eating meat to reduce greenhouse gas emissions.",
+      "category": "Sustainable Consumption",
+      "image": "img/48meat.jpeg"
+    },
+    {
+      "id": "49",
+      "action": "49: Litter Pick Up",
+      "description": "Pick up litter to protect wildlife and clean the environment.",
+      "category": "Community",
+      "image": "img/49litter.jpeg"
+    },
+    {
+      "id": "50",
+      "action": "50: Don't Buy Today",
+      "description": "Avoid purchases to reduce environmental impact.",
+      "category": "Responsible Spending",
+      "image": "img/50dontbuy.avif"
+    }
+]
+

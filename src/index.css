@@ -84,7 +84,7 @@
     word-wrap: break-word;
     width: 450px;
     font-weight: 500;
-    margin-bottom:5vh;
+    margin-bottom:3vh;
 }
 
 .land-button {
@@ -127,7 +127,7 @@
     min-width: 900px;
     padding:1rem;
     margin-left: 2vh;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-bottom:10vh;
     border-radius: 10px;
     border: 2px solid rgba(128, 128, 128, 0.5); 
@@ -142,7 +142,7 @@
 }
 
 .filter-container {
-    margin-top: 5vh;
+    margin-top: 1vh;
     margin-right: 4vh;
     color:rgb(171, 171, 171);
 }

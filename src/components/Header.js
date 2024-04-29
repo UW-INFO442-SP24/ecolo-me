@@ -5,11 +5,11 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function Header() {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="navbar">
+        <Navbar collapseOnSelect expand="lg" variant="light" className="navbar">
             <Container>
                 <Navbar.Brand as={Link} to="/home" className="project-name">
                     <img src="https://img.icons8.com/color/48/000000/hand-planting.png" width="50" height="50" alt="hand-planting" />
-                    <span>ECO-CHALLENGE</span>
+                    <span>ECO-<span className="challenge-text">CHALLENGE</span></span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

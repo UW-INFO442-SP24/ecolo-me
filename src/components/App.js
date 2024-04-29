@@ -14,10 +14,10 @@ function App(props) {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
-                <Route path="/find" element={<Cards />} />
+                <Route path="/find" element={<Funfacts />} />
                 <Route path="/resources" element={<Resources />} />
             </Routes>
-            <Funfacts />
+          
             <Footer />
         </Router>
     );
