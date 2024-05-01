@@ -28,6 +28,17 @@ How might we encourage college students to adopt sustainable consumption and pro
 - Figma for prototyping
 - Github to store our code
 
+## User Personas
+Jacob he/him:
+
+Jacob is an 18 year old student majoriing in Environmental Studies at the University of Washington. 
+
+Goals:
+
+
+Emilio he/him:
+
+Emilio is a 23 year old new grad from Lousiana moving to Seattle for a job at Amazon. Emilio grew up in the south where he saw first hand the effects of 
 
 
 
