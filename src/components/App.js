@@ -5,7 +5,6 @@ import Home from './Landingpage';
 import Resources from './Resources';
 import Footer from './Footer.js';
 import Cards from './Cards.js';
-import Funfacts from './Facts.js';
 
 function App(props) {
   const [acceptedChallenges, setAcceptedChallenges] = useState([]);
@@ -47,7 +46,7 @@ function App(props) {
         <div className="progress-bar">
           <div
             className="progress"
-            style={{ width: `${(acceptedChallenges.length / totalChallenges) * 100}%` }}
+            style={{ width: (acceptedChallenges.length / totalChallenges) * 100 + '%' }}
           />
         </div>
       </div>
