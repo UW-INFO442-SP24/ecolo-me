@@ -124,55 +124,52 @@
 /* SEARCH STYLING*/
 
 .search-input-container input[type="text"] {
-    min-width: 900px;
-    padding:1rem;
-    margin-left: 2vh;
-    margin-top: 10vh;
-    margin-bottom:10vh;
+    padding: 1rem;
+    margin: 10vh 2vh; /* Add margin on both sides */
     border-radius: 10px;
-    border: 2px solid rgba(128, 128, 128, 0.5); 
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
-}
-
-.search-and-filter {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 20px; 
-}
-
-.filter-container {
+    border: 2px solid rgba(128, 128, 128, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+   }
+   
+   .search-and-filter {
+    display: flex;
+    justify-content: center; /* Center align items */
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+   }
+   
+   .filter-container {
     margin-top: 1vh;
-    margin-right: 4vh;
-    color:rgb(171, 171, 171);
-}
-
-
-
-/* FILTER BOX */
-
-label {
-    font-size: 16px; 
-    margin-bottom: 8px; 
+    margin-left: 4vh; /* Add margin on the left */
+    color: rgb(171, 171, 171);
+   }
+   
+   /* FILTER BOX */
+   label {
+    font-size: 16px;
+    margin-bottom: 8px;
     display: block;
-  }
-  
-  select {
-    min-width: 300px; 
-    padding: 1rem; 
-    border-radius: 10px; 
-    border: 1px solid #ccc; 
+    text-align: center;
+   }
+   
+   select {
+    min-width: 300px;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
     background-color: #fff;
-    text-align: center; 
-    border: 2px solid rgba(128, 128, 128, 0.5); 
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
-    color:grey;
-  }
-  
-
-  select option {
-    color: darkblue; 
-  }
+    text-align: left;
+    border: 2px solid rgba(128, 128, 128, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: grey;
+   }
+   
+   select option {
+    color: darkblue;
+   }
+   
   
 
 /* CARDS STYLING */
@@ -192,11 +189,15 @@ label {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
     margin-bottom: 5vh;
     border-radius: 10px; 
+    overflow: hidden; /* Ensure content does not spill outside the card */
+    display: flex;
+    flex-direction: column;
 }
 
 .one-card img {
     width: 100%; 
-    height: 18rem; 
+    height: auto;
+    object-fit: cover; 
 }
 
 .one-card-body {
@@ -294,3 +295,36 @@ label {
         max-width: 1400px;
         }
     }
+
+/* Media styling for the cards on home page */
+    @media (min-width: 768px) and (max-width: 1042px) {
+        .card-container {
+            grid-template-columns: repeat(2, 1fr); /* Two column layout for medium screens */
+            gap: 20px;
+        }
+        .one-card {
+            max-width: 90%; /* Takes more width */
+            margin: 0 auto; /* Centering cards */
+            max-height: 25rem; /* Reducing max height */
+        }
+        .one-card img {
+            height: 70%; /* Reducing image height to allocate space for text */
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .card-container {
+            grid-template-columns: 1fr; /* Single column layout for smaller screens */
+            gap: 10px;
+        }
+    
+        .one-card {
+            max-width: 90%; /* Adjust width to be more responsive */
+            margin: 0 auto; /* Ensure cards are centered */
+            max-height: 22rem; /* Further reduce max height for smaller screens */
+        }
+        .one-card img {
+            height: 65%; /* Further reducing image height for smaller screens */
+        }
+    }
+
