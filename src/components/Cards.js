@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import cardsData from '../data/ecochallenges.json';
+import Challenge from './Challenge';
 
-function Cards() {
+function Cards({ acceptedChallenges, totalChallenges, onAccept, onDecline }) {
     const [searchQuery, setSearchQuery] = useState('');
     const [filterCategory, setFilterCategory] = useState('');
 
@@ -48,13 +49,14 @@ function Cards() {
 
             <div className="card-container">
                 {filteredCards.map((card) => (
-                    <div key={card.id} className="one-card">
-                        <img src={card.image} alt={card.action} className="one-card-image" />
-                        <div className="one-card-body">
-                            <h5 className="one-card-title">{card.action}</h5>
-                            <p className="one-card-text">{card.description}</p>
-                        </div>
-                    </div>
+                    <Challenge
+                        key={card.id}
+                        card={card}
+                        onAccept={onAccept}
+                        onDecline={onDecline}
+                        acceptedChallenges={acceptedChallenges}
+                        totalChallenges={totalChallenges}
+                    />
                 ))}
             </div>
         </div>
