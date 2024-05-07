@@ -9,7 +9,7 @@ import Funfacts from './Facts.js';
 
 function App(props) {
   const [acceptedChallenges, setAcceptedChallenges] = useState([]);
-  const totalChallenges = /* Replace this with the total number of challenges */;
+  const totalChallenges = 50;
 
   const handleAccept = (challengeId) => {
     setAcceptedChallenges((prevAcceptedChallenges) => [...prevAcceptedChallenges, challengeId]);
