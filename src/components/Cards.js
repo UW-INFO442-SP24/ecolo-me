@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import cardsData from '../data/ecochallenges.json';
-import Challenge from './Challenge';
+import React, { useState } from 'react';  // Ensure useState is included here
+import cardsData from '../data/ecochallenges.json';  // Correct path to your JSON data
+import Challenge from './Challenge';  // Ensure this is the correct path to the Challenge component
 
-function Cards({ acceptedChallenges, totalChallenges, onAccept, onDecline }) {
+function Cards({ acceptedChallenges = [], totalChallenges, onAccept, onDecline }) {
     const [searchQuery, setSearchQuery] = useState('');
     const [filterCategory, setFilterCategory] = useState('');
 
@@ -19,7 +19,7 @@ function Cards({ acceptedChallenges, totalChallenges, onAccept, onDecline }) {
         (filterCategory === '' || card.category === filterCategory)
     );
 
-    const progressPercent = (acceptedChallenges.length / totalChallenges) * 100;
+    const progressPercent = acceptedChallenges ? (acceptedChallenges.length / totalChallenges) * 100 : 0;
 
     return (
         <div>
@@ -51,7 +51,7 @@ function Cards({ acceptedChallenges, totalChallenges, onAccept, onDecline }) {
 
             <div className="progress-bar-container" style={{width: '100%', backgroundColor: '#e0e0e0', marginBottom: '20px'}}>
                 <div className="progress-bar" style={{width: `${progressPercent}%`, backgroundColor: 'green', height: '20px'}}></div>
-                <span>{acceptedChallenges.length}/{totalChallenges} challenges completed</span>
+                <span>{acceptedChallenges ? `${acceptedChallenges.length}` : '0'}/{totalChallenges} challenges completed</span>
             </div>
 
             <div className="card-container">

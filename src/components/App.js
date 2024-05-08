@@ -8,16 +8,19 @@ import Cards from './Cards.js';
 
 function App(props) {
   const [acceptedChallenges, setAcceptedChallenges] = useState([]);
-  const totalChallenges = 50;
+  const totalChallenges = 50; // Assume total challenges are statically set to 50 for now
 
   const handleAccept = (challengeId) => {
-    setAcceptedChallenges((prevAcceptedChallenges) => [...prevAcceptedChallenges, challengeId]);
+    setAcceptedChallenges(prev => {
+      if (!prev.includes(challengeId)) {
+        return [...prev, challengeId];
+      }
+      return prev;
+    });
   };
 
   const handleDecline = (challengeId) => {
-    setAcceptedChallenges((prevAcceptedChallenges) =>
-      prevAcceptedChallenges.filter((id) => id !== challengeId)
-    );
+    setAcceptedChallenges(prev => prev.filter(id => id !== challengeId));
   };
 
   return (
@@ -26,31 +29,16 @@ function App(props) {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route
-          path="/find"
-          element={
-            <Cards
-              acceptedChallenges={acceptedChallenges}
-              totalChallenges={totalChallenges}
-              onAccept={handleAccept}
-              onDecline={handleDecline}
-            />
-          }
-        />
+        <Route path="/find" element={
+          <Cards
+            acceptedChallenges={acceptedChallenges}
+            totalChallenges={totalChallenges}
+            onAccept={handleAccept}
+            onDecline={handleDecline}
+          />
+        } />
         <Route path="/resources" element={<Resources />} />
       </Routes>
-
-      {/* Render the progress bar */}
-      <div>
-        <span>{acceptedChallenges.length}/{totalChallenges} challenges completed</span>
-        <div className="progress-bar">
-          <div
-            className="progress"
-            style={{ width: (acceptedChallenges.length / totalChallenges) * 100 + '%' }}
-          />
-        </div>
-      </div>
-
       <Footer />
     </Router>
   );
