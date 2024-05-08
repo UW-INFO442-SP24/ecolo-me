@@ -19,6 +19,8 @@ function Cards({ acceptedChallenges, totalChallenges, onAccept, onDecline }) {
         (filterCategory === '' || card.category === filterCategory)
     );
 
+    const progressPercent = (acceptedChallenges.length / totalChallenges) * 100;
+
     return (
         <div>
             <section className="search-and-filter">
@@ -47,13 +49,18 @@ function Cards({ acceptedChallenges, totalChallenges, onAccept, onDecline }) {
                 </div>
             </section>
 
+            <div className="progress-bar-container" style={{width: '100%', backgroundColor: '#e0e0e0', marginBottom: '20px'}}>
+                <div className="progress-bar" style={{width: `${progressPercent}%`, backgroundColor: 'green', height: '20px'}}></div>
+                <span>{acceptedChallenges.length}/{totalChallenges} challenges completed</span>
+            </div>
+
             <div className="card-container">
                 {filteredCards.map((card) => (
                     <Challenge
                         key={card.id}
                         card={card}
-                        onAccept={onAccept}
-                        onDecline={onDecline}
+                        onAccept={() => onAccept(card.id)}
+                        onDecline={() => onDecline(card.id)}
                         acceptedChallenges={acceptedChallenges}
                         totalChallenges={totalChallenges}
                     />
