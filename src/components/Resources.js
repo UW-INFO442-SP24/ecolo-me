@@ -13,6 +13,7 @@ function Resources() {
             </ul>
             <YouTubeEmbed embedId="dn-hLQk49eA" />
         </div>
+        
     );
 }
 

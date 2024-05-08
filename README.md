@@ -31,7 +31,7 @@ How might we encourage college students to adopt sustainable consumption and pro
 ## User Personas
 Jacob he/him:
 
-Jacob is an 18 year old student majoriing in Environmental Studies at the University of Washington. 
+Jacob is an 18 year old student majoring in Environmental Studies at the University of Washington. 
 
 Goals:
 
@@ -39,6 +39,10 @@ Goals:
 Emilio he/him:
 
 Emilio is a 23 year old new grad from Lousiana moving to Seattle for a job at Amazon. Emilio grew up in the south where he saw first hand the effects of 
+
+## Testing Protocol
+| Testing Protocol | Feature 1 | Feature 2 |
+
 
 
 
