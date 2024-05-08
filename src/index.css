@@ -243,22 +243,58 @@
     transform: rotateY(180deg);
   }
 
-  /* Progress Bar Styling */
-.progress-bar {
+  /* Additional styling for Find Challenges page */
+.challenge-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 80vh; /* Adjust based on your layout */
+}
+
+.challenge-card {
+    width: 300px; /* Adjust as necessary */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.challenge-image {
     width: 100%;
-    height: 20px;
-    background-color: #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    max-height: 200px;
+    object-fit: cover;
 }
 
-.progress {
-    height: 100%;
-    background-color: green;
-    transition: width 0.3s ease;
+.challenge-actions {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
 }
 
+.btn {
+    padding: 8px 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 48%; /* Half width minus margin */
+}
+
+.accept {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.decline {
+    background-color: #f44336;
+    color: white;
+}
 /* RESOURCES PAGE STYLING */
 .resources-page {
     padding: 20px;
