@@ -8,7 +8,7 @@ import Cards from './Cards';
 
 function App() {
     const [acceptedChallenges, setAcceptedChallenges] = useState([]);
-    const totalChallenges = 50; // Assuming a fixed number of challenges
+    const totalChallenges = 50;
 
     const handleAccept = (challengeId) => {
         if (!acceptedChallenges.includes(challengeId)) {
@@ -41,5 +41,6 @@ function App() {
         </Router>
     );
 }
+
 
 export default App;

@@ -7,36 +7,30 @@ function Cards({ acceptedChallenges, totalChallenges, onAccept, onDecline, isCha
 
     useEffect(() => {
         if (isChallengePage) {
-            showRandomCard();
+            setCurrentCardIndex(Math.floor(Math.random() * cardsData.length));  // Ensures a card is shown when page is loaded
         }
-    }, [isChallengePage]); // React to changes in isChallengePage to reset when switching views
+    }, [isChallengePage, cardsData.length]);
 
-    const handleAccept = (id) => {
-        onAccept(id);
-        showRandomCard();
-    };
-
-    const handleDecline = (id) => {
-        onDecline(id);
-        showRandomCard();
-    };
-
-    const showRandomCard = () => {
-        const randomIndex = Math.floor(Math.random() * cardsData.length);
-        setCurrentCardIndex(randomIndex);
-    };
+    const progressPercent = acceptedChallenges ? (acceptedChallenges.length / totalChallenges) * 100 : 0;
 
     return (
         <div className={isChallengePage ? "challenge-container" : "card-container"}>
-            {isChallengePage ? (
-                cardsData.length > 0 && 
-                <Challenge
-                    card={cardsData[currentCardIndex]}
-                    onAccept={handleAccept}
-                    onDecline={handleDecline}
-                    showActions={true}
-                />
-            ) : (
+            {isChallengePage && (
+                <>
+                    <div className="progress-bar-container" style={{width: '100%'}}>
+                        <div className="progress-bar" style={{width: `${progressPercent}%`}}>
+                            {acceptedChallenges.length}/{totalChallenges} challenges completed
+                        </div>
+                    </div>
+                    <Challenge
+                        card={cardsData[currentCardIndex]}
+                        onAccept={onAccept}
+                        onDecline={onDecline}
+                        showActions={true}
+                    />
+                </>
+            )}
+            {!isChallengePage && 
                 cardsData.map(card => (
                     <Challenge
                         key={card.id}
@@ -46,9 +40,10 @@ function Cards({ acceptedChallenges, totalChallenges, onAccept, onDecline, isCha
                         showActions={false}
                     />
                 ))
-            )}
+            }
         </div>
     );
 }
+
 
 export default Cards;
