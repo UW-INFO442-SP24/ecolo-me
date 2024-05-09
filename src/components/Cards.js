@@ -1,24 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import cardsData from '../data/ecochallenges.json';
 import Challenge from './Challenge';
 
 function Cards({ acceptedChallenges, totalChallenges, onAccept, onDecline, isChallengePage }) {
     const [currentCardIndex, setCurrentCardIndex] = useState(0);
 
+    useEffect(() => {
+        if (isChallengePage) {
+            showRandomCard();
+        }
+    }, [isChallengePage]); // React to changes in isChallengePage to reset when switching views
+
     const handleAccept = (id) => {
         onAccept(id);
-        showNextCard();
+        showRandomCard();
     };
 
     const handleDecline = (id) => {
         onDecline(id);
-        showNextCard();
+        showRandomCard();
     };
 
-    const showNextCard = () => {
-        if (isChallengePage) { // Only increment card index on challenge page
-            setCurrentCardIndex(prevIndex => (prevIndex + 1) % cardsData.length);
-        }
+    const showRandomCard = () => {
+        const randomIndex = Math.floor(Math.random() * cardsData.length);
+        setCurrentCardIndex(randomIndex);
     };
 
     return (

@@ -244,46 +244,45 @@
   }
 
   /* Additional styling for Find Challenges page */
-.challenge-container {
+  .challenge-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    height: 80vh; /* Adjust based on your layout */
+    height: 80vh; /* Utilize available vertical space */
 }
 
 .challenge-card {
-    width: 300px; /* Adjust as necessary */
-    border: 1px solid #ccc;
+    width: 400px; /* Increased width */
+    min-height: 500px; /* Increased height */
+    border: 2px solid #ccc;
     padding: 20px;
     margin: 10px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .challenge-image {
     width: 100%;
-    max-height: 200px;
+    height: 300px; /* Increased height for the image */
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
 .challenge-actions {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin-top: 20px;
+    margin-top: auto; /* Push buttons to the bottom */
 }
 
 .btn {
-    padding: 8px 16px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    width: 48%; /* Half width minus margin */
+    padding: 10px 20px;
+    font-size: 16px; /* Larger font size for better readability */
+    border-radius: 5px;
 }
 
 .accept {
@@ -295,6 +294,7 @@
     background-color: #f44336;
     color: white;
 }
+
 /* RESOURCES PAGE STYLING */
 .resources-page {
     padding: 20px;
