@@ -29,9 +29,9 @@ How might we encourage college students to adopt sustainable consumption and pro
 - Github to store our code
 
 ## User Personas
-Jacob he/him:
+Jacob (he/him):
 
-![Jacob] (/public/img/persona1.jpg)
+![Jacob](/public/img/persona1.jpg)
 
 Background: Jacob is an 18 year old student majoring in Environmental Studies at the University of Washington. 
 Occupation: Student 
@@ -47,9 +47,9 @@ Pain Points:
 - Lack of guidance for how to act towards his goals
 
 
-Emilio he/him:
+Emilio (he/him):
 
-![Emilio] (/public/img/persona2.jpg)
+![Emilio](/public/img/persona2.jpg)
 
 Background: Emilio is a 23 year old new grad from Lousiana moving to Seattle for a job at Amazon. He grew up in the South, where he saw firsthand the effects industrial practices had on the environment.
 Occupation: Amazon Employee 
