@@ -1,5 +1,12 @@
+
 * {
     font-family: 'Inter', 'Arial';
+    box-sizing: border-box;
+}
+
+/* Body styling */
+html, body {
+    height: 100%;
 }
 
 /* NAVBAR STYLING*/
@@ -251,7 +258,7 @@
     border-radius: 8px;
 }
 
-.resources-page h1 {
+.resources-page h1, h2 {
     color: green;
 }
 
@@ -284,6 +291,21 @@
     width: 100%;
     position: absolute;
     }
+
+
+    /* FOOTER STYLING */
+    footer {
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    footer p {
+        margin: 5px 0;
+    }
+
+
+
 
 
     @media (min-width: 430px) {
@@ -327,4 +349,3 @@
             height: 65%; /* Further reducing image height for smaller screens */
         }
     }
-
