@@ -29,7 +29,7 @@ How might we encourage college students to adopt sustainable consumption and pro
 - Github to store our code
 
 ## User Personas
-Jacob (he/him):
+**Jacob (he/him):**
 
 ![Jacob](/public/img/Persona1.jpg)
 
@@ -50,7 +50,7 @@ Pain Points:
 
 
 
-Emilio (he/him):
+**Emilio (he/him):**
 
 ![Emilio](/public/img/Persona2.jpg)
 
@@ -73,7 +73,7 @@ Pain Points:
 ## Testing Protocol
 | Testing Protocol | Feature 1 | Feature 2 |
 
-Feature 1: Responsive Design on Mobile Devices: Our goal is for the site to be equally responsive on two screen sizes: desktop and mobile.
+**Feature 1:** Responsive Design on Mobile Devices: Our goal is for the site to be equally responsive on two screen sizes: desktop and mobile.
 
 In this acceptance test, we will ask stakeholders or our Quality Assurance team (in this case just ourselves or with people affiliated with 442) to follow the following steps:  
 
@@ -100,7 +100,9 @@ Cross-Device and Cross-Browser Testing:
 - Open the website on different browsers to ensure consistent behavior and appearance.  
 
 
-Feature 2: Homepage card flip-ability
+**Feature 2:** Homepage card flip-ability
+
+In this acceptance test, we will ask stakeholders or our Quality Assurance team (in this case just ourselves or with people affiliated with 442) to follow the following steps:
 
 Protocol:  
 
