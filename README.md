@@ -49,6 +49,7 @@ Pain Points:
 - Lack of guidance for how to act towards his goals
 
 
+
 Emilio (he/him):
 
 ![Emilio](/public/img/Persona2.jpg)
@@ -97,6 +98,34 @@ Confirm that elements like forms and search bars are accessible and functional.
 Cross-Device and Cross-Browser Testing:
 - Repeat the above tests on various devices (tablets and desktops) and in different orientations (portrait and landscape).
 - Open the website on different browsers to ensure consistent behavior and appearance.  
+
+
+Feature 2: Homepage card flip-ability
+
+Protocol:  
+
+1. Load Homepage:  
+- Navigate to the homepage of the ecolo-me website.
+- Ensure that the homepage loads without errors and that challenge cards are displayed as expected.  
+
+2. Initial Card State:
+- Verify that each card is initially displaying the correct content (e.g., a summary of the challenge and an image).  
+
+3. Interact with Card:
+- Click on a challenge card.
+- Observe the flip animation. Check that it is smooth and renders correctly without any visual glitches.
+- Verify that the card reveals our resources or information on its reverse side  
+
+4. Content Verification:
+- Ensure that the content on the reverse side of the card is correct and matches our dataset.  
+
+5. Reverse the Flip:
+- Click the card again.
+- Verify that the card returns to its original content and orientation.  
+
+6. Repeatability:  
+- Repeat steps 3 to 5 for multiple cards to ensure consistent behavior across different cards and with various filters in place.  
+
 
 
 
