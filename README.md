@@ -34,7 +34,9 @@ Jacob (he/him):
 ![Jacob](/public/img/Persona1.jpg)
 
 Background: Jacob is an 18 year old student majoring in Environmental Studies at the University of Washington.  
+
 Occupation: Student  
+
 Goals:
 - Passionate about sustainability
 - Wants to make a positive impact on the world by reducing his carbon footprint
@@ -51,8 +53,10 @@ Emilio (he/him):
 
 ![Emilio](/public/img/Persona2.jpg)
 
-Background: Emilio is a 23 year old new grad from Lousiana moving to Seattle for a job at Amazon. He grew up in the South, where he saw firsthand the effects industrial practices had on the environment.
+Background: Emilio is a 23 year old new grad from Lousiana moving to Seattle for a job at Amazon. He grew up in the South, where he saw firsthand the effects industrial practices had on the environment.  
+
 Occupation: Amazon Employee  
+
 Goals: 
 - Wants to explore sustainability and expand his knowledge on the topic  
 Needs: 
@@ -71,20 +75,25 @@ Pain Points:
 Feature 1: Responsive Design on Mobile Devices: Our goal is for the site to be equally responsive on two screen sizes: desktop and mobile.
 
 In this acceptance test, we will ask stakeholders or our Quality Assurance team (in this case just ourselves or with people affiliated with 442) to follow the following steps:  
+
 Initial Load on Mobile Device:
 - Open the website on a mobile device.
 - Verify that the site loads without any layout issues or undue delay.  
+
 Navbar Responsiveness:
 - Check that the navbar is visible and functional upon loading the site on a mobile device.
 - Ensure that the navbar converts into a hamburger icon on smaller screens.
-- Click the hamburger icon to verify that it expands to show menu options correctly and is easily navigable.
-- Content and Card Layout:
+- Click the hamburger icon to verify that it expands to show menu options correctly and is easily navigable.  
+
+Content and Card Layout:
 - Scroll through the home page to view the flexbox cards listing environmental challenges.
 - Check that the cards restack vertically on smaller screens and maintain appropriate margins and padding.
-- Ensure texts, images, and buttons within the cards are aligned and readable without the need to zoom.  
+- Ensure texts, images, and buttons within the cards are aligned and readable without the need to zoom.    
+
 Interactive Elements:
 - Test interactive elements like buttons and links to ensure they are easily clickable on a mobile device.
 Confirm that elements like forms and search bars are accessible and functional.  
+
 Cross-Device and Cross-Browser Testing:
 - Repeat the above tests on various devices (tablets and desktops) and in different orientations (portrait and landscape).
 - Open the website on different browsers to ensure consistent behavior and appearance.  
