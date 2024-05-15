@@ -13,6 +13,10 @@ function Cards() {
         setFilterCategory(event.target.value);
     };
 
+    const resetFilters = () => {
+        setFilterCategory(''); 
+    };
+
     const filteredCards = cardsData.filter((card) =>
         (card.action.toLowerCase().includes(searchQuery) || card.description.toLowerCase().includes(searchQuery)) &&
         (filterCategory === '' || card.category === filterCategory)
@@ -36,6 +40,7 @@ function Cards() {
                     <label>
                         <select name='Filter' id='Filter' value={filterCategory} onChange={handleFilterChange}>
                             <option value='' disabled>Select Category</option>
+                            <option value=''>All Categories</option>
                             <option value='Waste Management'>Waste Management</option>
                             <option value='Sustainable Consumption'>Sustainable Consumption</option>
                             <option value='Reuse & Recycle'>Reuse & Recycle</option>

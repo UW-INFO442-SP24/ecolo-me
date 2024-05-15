@@ -14,7 +14,7 @@ function QuizCardsResult({ acceptedCards }) {
     };
 
     return (
-        <div className="card-container">
+        <div className="accepted-page">
             {/* This could use styling or prompting on what the user should do when they click on find challenges */}
             <h2>Accepted Challenges</h2>
             <div className="accepted-cards-list">

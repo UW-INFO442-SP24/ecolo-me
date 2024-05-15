@@ -130,6 +130,10 @@ html, body {
 
 /* SEARCH STYLING*/
 
+.search-container {
+    width: 1000px;
+}
+
 .search-input-container input[type="text"] {
     padding: 1rem;
     margin: 10vh 2vh; /* Add margin on both sides */
@@ -188,8 +192,8 @@ html, body {
 }
 
 .one-card {
-    max-width: 18rem;
-    max-height: 30rem;
+    width: 18rem;
+    height: 30rem;
     border: 2px solid rgba(128, 128, 128, 0.5); 
     padding: 10px;
     margin-left: 3.5vh;
@@ -316,6 +320,11 @@ html, body {
     .quiz-container-card {
         display: flex;    
     }
+
+    .quiz-container h2 {
+        font-weight: 550;
+        margin-bottom: 4vh;
+    }
     .accepted-cards-list {
         display: flex;
         flex-wrap: wrap;
@@ -353,37 +362,49 @@ html, body {
 
     .accepted-cards-list {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(5, 1fr); 
         gap: 20px;
-        justify-content: center;
+        justify-content: center; 
+        align-content: center; 
         width: 100%; 
+        max-width: 950px; 
+        margin-top: 4vh;
+        margin-bottom: 4vh; 
+        margin-left: auto; 
+        margin-right: auto; 
     }
+    
     
     .one-card-print {
         border: 1px solid #ccc;
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         overflow: hidden;
+        margin-bottom:5vh;
     }
-    
-    
+
     .one-card-image {
         width: 100%;
         height: auto; 
     }
     
     .print-button {
-        margin-top:10vh;
-        margin-left:10vh;
-        background-color: #007BFF; 
+        margin-top:2vh;
+        margin-left:80vh;
+        background-color: green; 
         color: white;
         padding: 5px 10px; 
         font-size: 14px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        height:150px;
+        height:80px;
+        margin-bottom: 5vh;
     }
     
+    .accepted-page h2 {
+        margin-left: 74vh;
+        margin-top: 8vh;
+    }
 
 
 

@@ -45,6 +45,8 @@ function QuizCards({ onAccept }) {
 
     return (
         <div className="quiz-container">
+            <h2>Accept or Decline</h2>
+            <p>We shuffled our cards.....add more text</p>
             {currentCard && (
                 // React Fragment: used to group multiple elements without adding an extra node to the DOM.
                 // Not sure if this is good code quality????
@@ -57,6 +59,9 @@ function QuizCards({ onAccept }) {
                                 <p className="one-card-text">{currentCard.description}</p>
                             </div>
                         </div>
+                    </div>
+                    <div className="question-indicator">
+                        Challenge {currentCardIndex + 1} of {shuffledCards.length}
                     </div>
                     {/* Need to add styling to the buttons here */}
                     <div className="quiz-buttons">
