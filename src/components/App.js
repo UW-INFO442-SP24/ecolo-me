@@ -1,23 +1,21 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './Header';
+import Header from './Header.js';
 import Home from './Landingpage';
 import Resources from './Resources';
-import Footer from './Footer';
-import Cards from './Cards';
+import Footer from './Footer.js';
+import Funfacts from './Facts.js';
+import QuizCards from './Quiz/QuizCard';
+import QuizCardsResult from './Quiz/QuizCardsResult';
 
 function App() {
-    const [acceptedChallenges, setAcceptedChallenges] = useState([]);
-    const totalChallenges = 50;
 
-    const handleAccept = (challengeId) => {
-        if (!acceptedChallenges.includes(challengeId)) {
-            setAcceptedChallenges(prev => [...prev, challengeId]);
-        }
-    };
+    // State to hold the accepted cards
+    const [acceptedCards, setAcceptedCards] = useState([]);
 
-    const handleDecline = (challengeId) => {
-        setAcceptedChallenges(prev => prev.filter(id => id !== challengeId));
+    // Function to handle accepting a card
+    const handleAccept = (card) => {
+        setAcceptedCards((prevCards) => [...prevCards, card]);
     };
 
     return (
@@ -26,21 +24,14 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
-                <Route path="/find" element={
-                    <Cards
-                        isChallengePage={true}
-                        acceptedChallenges={acceptedChallenges}
-                        totalChallenges={totalChallenges}
-                        onAccept={handleAccept}
-                        onDecline={handleDecline}
-                    />
-                } />
+                <Route path="/find" element={<Funfacts />} />
                 <Route path="/resources" element={<Resources />} />
+                <Route path="/quiz" element={<QuizCards onAccept={handleAccept} />} />
+                <Route path="/results" element={<QuizCardsResult acceptedCards={acceptedCards} />} />
             </Routes>
             <Footer />
         </Router>
     );
 }
-
 
 export default App;
