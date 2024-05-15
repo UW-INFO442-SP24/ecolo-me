@@ -26,7 +26,7 @@ function QuizCardsResult({ acceptedCards }) {
                     <p>No challenges accepted yet.</p>
                 ) : (
                     acceptedCards.map((card) => (
-                        <div key={card.id} className="one-card">
+                        <div key={card.id} className="one-card-print">
                             <img src={card.image} alt={card.action} className="one-card-image" />
                             <div className="one-card-body">
                                 <h5 className="one-card-title">{card.action}</h5>

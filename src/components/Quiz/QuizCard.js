@@ -53,7 +53,7 @@ function QuizCards({ onAccept }) {
                 // React Fragment: used to group multiple elements without adding an extra node to the DOM.
                 // Not sure if this is good code quality????
                 <React.Fragment>
-                    <div className="card-container">
+                    <div className="quiz-container-card">
                         <div key={currentCard.id} className="one-card">
                             <img src={currentCard.image} alt={currentCard.action} className="one-card-image" />
                             <div className="one-card-body">

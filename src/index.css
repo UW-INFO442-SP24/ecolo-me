@@ -313,6 +313,15 @@ html, body {
         width: 100%; 
     }
 
+    .quiz-container-card {
+        display: flex;    
+    }
+    .accepted-cards-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
 
     .accept-button {
         background-color: #4CAF50; 
@@ -340,6 +349,39 @@ html, body {
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 5px;
+    }
+
+    .accepted-cards-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 20px;
+        justify-content: center;
+        width: 100%; 
+    }
+    
+    .one-card-print {
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        overflow: hidden;
+    }
+    
+    
+    .one-card-image {
+        width: 100%;
+        height: auto; 
+    }
+    
+    .print-button {
+        margin-top:10vh;
+        margin-left:10vh;
+        background-color: #007BFF; 
+        color: white;
+        padding: 5px 10px; 
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        height:150px;
     }
     
 
