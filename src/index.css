@@ -26,9 +26,6 @@ html, body {
     color: green; 
 }
 
-.project-name:hover {
-    color:green;
-}
 
 .challenge-text {
     color: #A0E179;
@@ -55,7 +52,7 @@ html, body {
 
 .navbar-links a:hover {
     text-decoration: underline;
-    color: darkgreen;
+    color: green;
 }
 
 
@@ -310,7 +307,9 @@ html, body {
 
     .quiz-container h2 {
         font-weight: 550;
+        margin-top:10vh;
         margin-bottom: 4vh;
+
     }
     .accepted-cards-list {
         display: flex;
@@ -346,6 +345,29 @@ html, body {
         cursor: pointer;
         border-radius: 5px;
     }
+
+    .quiz-buttons {
+        margin-bottom:15vh;
+    }
+
+    .box {
+        position: relative; 
+        width: 1200px; 
+        height: 300px; 
+        background-color: green;
+        border-radius: 10px; 
+        margin-bottom:3vh;
+    }
+    
+    .text-overlay {
+        width: 90%; 
+        color: white; 
+        font-size: 18px; 
+        text-align: center; 
+        padding:1rem;
+        margin-left:7vh;
+    }
+    
 
     .accepted-cards-list {
         display: grid;

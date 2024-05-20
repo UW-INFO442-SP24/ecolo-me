@@ -45,8 +45,10 @@ function QuizCards({ onAccept }) {
 
     return (
         <div className="quiz-container">
-            <h2>Accept or Decline</h2>
-            <p>We shuffled our cards.....add more text</p>
+            <h2>Eco-Decisions: Will You Accept or Decline?</h2>
+            <div className="box">
+            <div class="text-overlay">This interactive feature allows you to engage with 10 unique environmental challenges, each designed to encourage actions that benefit our planet. As you navigate through the cards, you have the opportunity to either accept or decline each challenge. This not only helps raise awareness about eco-friendly practices but also empowers you to make a direct impact by choosing to incorporate these sustainable actions into your daily life.</div>
+            </div>
             {currentCard && (
                 // React Fragment: used to group multiple elements without adding an extra node to the DOM.
                 // Not sure if this is good code quality????

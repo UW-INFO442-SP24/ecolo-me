@@ -5,11 +5,27 @@ import { jsPDF } from 'jspdf';
 function QuizCardsResult({ acceptedCards }) {
     // Function to print the accepted cards to a PDF
     const printCards = () => {
-        const doc = new jsPDF();
-        acceptedCards.forEach((card, index) => {
-            doc.text(20, 20 + index * 10, `${card.action}: ${card.description}`);
+        const doc = new jsPDF({
+            orientation: 'portrait',
+            unit: 'in',
+            format: [8.5, 11]
         });
-        // Save the generated PDF
+        let yPosition = 1; 
+    
+        doc.setFontSize(10); 
+        acceptedCards.forEach((card, index) => {
+            const text = `${card.action}: ${card.description}`;
+            const splitText = doc.splitTextToSize(text, 7.5); 
+    
+            if (yPosition + (splitText.length * 0.2) > 10.5) { 
+                doc.addPage();
+                yPosition = 1; 
+            }
+    
+            doc.text(0.5, yPosition, splitText); 
+            yPosition += (splitText.length * 0.2) + 0.1; 
+        });
+    
         doc.save('accepted-challenges.pdf');
     };
 
