@@ -417,9 +417,15 @@ html, body {
         height: auto; 
     }
     
+    .accepted-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center children horizontally */
+        padding: 20px; /* Add some padding for better spacing */
+    }
+
     .print-button {
         margin-top:2vh;
-        margin-left:80vh;
         background-color: green; 
         color: white;
         padding: 5px 10px; 
