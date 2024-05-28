@@ -13,7 +13,7 @@ function Landing(props) {
                 <div className='create'>
                  <button className='land-button' onClick={() => {window.location.href='/quiz';}}>BE CHALLENGED</button>
                 </div>
-                <p>*Each challenge you'll face here is an opportunity to contribute to a healthier planet.</p>
+                <p className='explain-challenge-home'>*Each challenge you'll face here is an opportunity to contribute to a healthier planet.</p>
                 <div className="down-arrow" onClick={autoScrolltoCards}>
                     <img src={`${process.env.PUBLIC_URL}/img/down-caret.png`} alt="Down arrow" />
                 </div>
