@@ -15,7 +15,7 @@ function Header() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto navbar-links">
                         <Nav.Link as={Link} to="/home" className="nav-item">HOME</Nav.Link>
-                        <Nav.Link as={Link} to="/quiz" className="nav-item">FIND CHALLENGES</Nav.Link>
+                        <Nav.Link as={Link} to="/quiz" className="nav-item">CHALLENGE ME</Nav.Link>
                         <Nav.Link as={Link} to="/resources" className="nav-item">MORE RESOURCES</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

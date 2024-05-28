@@ -112,6 +112,21 @@ html, body {
     margin-top: 15vh;
 }
 
+.down-arrow img {
+    width: 20px; 
+    height: auto;
+}
+
+.down-arrow {
+    cursor: pointer;
+    margin-top: 2vh;
+    animation: bounce 2s infinite;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+}
+
+
 /* SEARCH STYLING*/
 
 .search-container {
@@ -292,6 +307,8 @@ html, body {
         margin: 5px 0;
     }
 
+    /* QUIZ STYLING */ 
+
     .quiz-container {
         display: flex;
         flex-direction: column;
@@ -311,6 +328,8 @@ html, body {
         margin-bottom: 4vh;
 
     }
+
+    /* FIND CHALLENGES STYLING */ 
     .accepted-cards-list {
         display: flex;
         flex-wrap: wrap;
@@ -368,6 +387,7 @@ html, body {
         margin-left:7vh;
     }
     
+    /* ACCEPTED CARDS STYLING */
 
     .accepted-cards-list {
         display: grid;
@@ -415,7 +435,7 @@ html, body {
         margin-top: 8vh;
     }
 
-
+    /* MEDIA QUERIES */ 
 
     @media (min-width: 430px) {
 
