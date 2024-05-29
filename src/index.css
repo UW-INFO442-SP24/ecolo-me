@@ -370,7 +370,9 @@ html, body {
         background-color: green;
         border-radius: 10px; 
         margin-bottom:3vh;
-        text-align: center;
+        justify-content: center;
+        align-content: center;
+        display: flex;
     }
     
     .text-overlay {
@@ -379,7 +381,7 @@ html, body {
         font-size: 18px; 
         text-align: center; 
         padding:1rem;
-        margin-left:4.5vh;
+        box-sizing: border-box;
     }
     
     /* ACCEPTED CARDS STYLING */
@@ -495,4 +497,22 @@ html, body {
         .box {
             width: 85%;
         }
+
+        .quiz-container h2 {
+            padding-top: 25vh;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 27vh;
+        }
+
+        .text-overlay{
+            font-size: 14px;
+        }
+
+        .quiz-container-card{
+            margin-bottom: 3vh;
+        }
+
     }
