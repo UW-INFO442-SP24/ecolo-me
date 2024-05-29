@@ -1,7 +1,7 @@
 <h1 align="center"> Testing Protocol</h1>
 
 ## Feature 1
-Find Challenges: Our goal is to ensure that the user can access the challenges and that the "accept or decline" feature is functional.
+**Find Challenges:** Our goal is to ensure that the user can access the challenges and that the "accept or decline" feature is functional.
 
 In this acceptance test, we will ask stakeholders to follow the following steps:  
 
@@ -20,7 +20,7 @@ Accept or Decline a Challenge
 
 
 ## Feature 2
-Print Challenges: Our goal is to verify that the application builds on the engagement established in the "Accept or Decline" quiz
+**Print Challenges:** Our goal is to verify that the application builds on the engagement established in the "Accept or Decline" quiz
 
 In this acceptance test, we will ask stakeholders to follow the following steps: 
 
@@ -38,7 +38,7 @@ PDF Content Verification
 
 
 ## Feature 3: 
-Search and Filter: Our goal is to ensure that the search and filter capabilities are functional, user-friendly, and enhance the user experience by narrowing down the number of challenges shown on the home page
+**Search and Filter:** Our goal is to ensure that the search and filter capabilities are functional, user-friendly, and enhance the user experience by narrowing down the number of challenges shown on the home page
 
 In this acceptance test, we will ask stakeholders to follow the following steps:
 
@@ -67,7 +67,7 @@ Combine Search and Filter
 
 
 ## Feature 4:
-More Resources: Our goal is to ensure that the "More Resources" page is functional and provides users with curated educational links to deepen their understanding of sustainable practices.
+**More Resources:** Our goal is to ensure that the "More Resources" page is functional and provides users with curated educational links to deepen their understanding of sustainable practices.
 
 In this acceptance test, we will ask stakeholders to follow the following steps:
 
