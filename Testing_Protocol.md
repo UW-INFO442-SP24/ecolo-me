@@ -1,6 +1,7 @@
 <h1 align="center"> Testing Protocol</h1>
 
-**Feature 1:** Find Challenges: Our goal is to ensure that the user can access the challenges and that the "accept or decline" feature is functional.
+## Feature 1
+Find Challenges: Our goal is to ensure that the user can access the challenges and that the "accept or decline" feature is functional.
 
 In this acceptance test, we will ask stakeholders to follow the following steps:  
 
@@ -15,7 +16,11 @@ Accept or Decline a Challenge
 - Click the "Accept" or "Decline" button on the card.
 - Verify that the user is taken to the next challenge in the series without errors
 
-**Feature 2:** Print Challenges: Our goal is to verify that the application builds on the engagement established in the "Accept or Decline" quiz
+
+
+
+## Feature 2
+Print Challenges: Our goal is to verify that the application builds on the engagement established in the "Accept or Decline" quiz
 
 In this acceptance test, we will ask stakeholders to follow the following steps: 
 
@@ -30,7 +35,10 @@ Print Accepted Challenges
 PDF Content Verification
 - Ensure that the PDF correctly lists all accepted challenges with their relevant details, formatted clearly.
 
-**Feature 3:** Search and Filter: Our goal is to ensure that the search and filter capabilities are functional, user-friendly, and enhance the user experience by narrowing down the number of challenges shown on the home page
+
+
+## Feature 3: 
+Search and Filter: Our goal is to ensure that the search and filter capabilities are functional, user-friendly, and enhance the user experience by narrowing down the number of challenges shown on the home page
 
 In this acceptance test, we will ask stakeholders to follow the following steps:
 
@@ -56,7 +64,10 @@ Combine Search and Filter
 - Enter a keyword in the search bar and then apply a filter.
 - Verify that the cards update to match both the search keyword and the selected filter topic.
 
-**Feature 4:** More Resources: Our goal is to ensure that the "More Resources" page is functional and provides users with curated educational links to deepen their understanding of sustainable practices.
+
+
+## Feature 4:
+More Resources: Our goal is to ensure that the "More Resources" page is functional and provides users with curated educational links to deepen their understanding of sustainable practices.
 
 In this acceptance test, we will ask stakeholders to follow the following steps:
 
@@ -74,3 +85,7 @@ Verify Video Link
 - Verify that an embedded video player is present and clearly labeled.
 - Click on the play button on the embedded video player.
 - Ensure that the video starts playing without errors
+
+## Potential Bugs:
+- In the Find Challenges feature, one bug we have is that if the user keeps clicking "Accept" on a single given session on our site, it won't forget their past challenges. Instead, it will continue to generate new ones and add them to the user's accept pile.
+- The workaround we have is to refresh the browser to "forget" those old accepted challenges and start with new ones
