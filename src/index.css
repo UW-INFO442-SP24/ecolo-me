@@ -104,7 +104,7 @@ html, body {
 }
 
 .landing-flex p {
-    margin-left: 5vh;
+    text-align: center;
     font-size: 15px;
     word-wrap: break-word;
     width: 400px;
@@ -115,6 +115,7 @@ html, body {
 .down-arrow img {
     width: 20px; 
     height: auto;
+    margin-top: 3vh;
 }
 
 .down-arrow {
@@ -515,4 +516,11 @@ html, body {
             margin-bottom: 3vh;
         }
 
+
+
+        .landing-flex h3 {
+            padding-right: 22%;
+        }
+
+    
     }
