@@ -330,12 +330,6 @@ html, body {
     }
 
     /* FIND CHALLENGES STYLING */ 
-    .accepted-cards-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-    }
 
     .accept-button {
         background-color: #4CAF50; 
@@ -392,7 +386,8 @@ html, body {
 
     .accepted-cards-list {
         display: grid;
-        grid-template-columns: repeat(5, 1fr); 
+        flex-wrap: wrap;
+        grid-template-columns: repeat(5, 1fr);
         gap: 20px;
         justify-content: center; 
         align-content: center; 
@@ -445,9 +440,6 @@ html, body {
 
     /* MEDIA QUERIES */ 
 
-    @media (min-width: 430px) {
-
-    }
 
     @media (min-width: 992px) {
         .container {
@@ -458,36 +450,46 @@ html, body {
 /* Media styling for the cards on home page */
     @media (min-width: 768px) and (max-width: 1200px) {
         .card-container {
-            grid-template-columns: repeat(2, 1fr); /* Two column layout for medium screens */
+            grid-template-columns: repeat(3, 1fr); /* Two column layout for medium screens */
             gap: 20px;
         }
+
+        .accepted-cards-list {
+            grid-template-columns: repeat(3, 1fr); /* Three columns for medium screens */
+        }
+
         .one-card {
-            max-width: 90%; /* Takes more width */
-            margin: 0 auto; /* Centering cards */
-            max-height: 25rem; /* Reducing max height */
+            max-width: 90%; 
+            margin: 0 auto; 
+            max-height: 25rem; 
         }
         .one-card img {
-            height: 70%; /* Reducing image height to allocate space for text */
+            height: 70%; 
         }
 
         .box {
             width: 90%;
         }
+
     }
     
     @media (max-width: 768px) {
         .card-container {
-            grid-template-columns: 1fr; /* Single column layout for smaller screens */
+            grid-template-columns: 1fr; /* Single column layout for small screens */
             gap: 10px;
         }
-    
+
+        .accepted-cards-list {
+            grid-template-columns: 1fr;
+        }
+
         .one-card {
-            max-width: 90%; /* Adjust width to be more responsive */
-            margin: 0 auto; /* Ensure cards are centered */
-            max-height: 22rem; /* Further reduce max height for smaller screens */
+            max-width: 90%; 
+            margin: 0 auto; 
+            max-height: 22rem; 
         }
         .one-card img {
-            height: 65%; /* Further reducing image height for smaller screens */
+            height: 65%; 
         }
 
         .box {
